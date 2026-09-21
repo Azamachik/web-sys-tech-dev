@@ -11,5 +11,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-  root "application#hello"
+  get "/hello", to: "application#hello"
+
+  # корень теперь ведёт на goodbye
+  root "application#goodbye"
 end
