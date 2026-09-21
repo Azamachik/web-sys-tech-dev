@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
 
   # Changes to the importmap will invalidate the etag for HTML responses
   def hello
-    render plain: "hello, world!"
+    render plain: "hola, mundo!"
   end
 end
