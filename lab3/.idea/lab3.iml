@@ -41,6 +41,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activestorage (v8.1.4, ruby-4.0.7-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v8.1.4, ruby-4.0.7-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.9.0, ruby-4.0.7-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ansi (v1.6.0, ruby-4.0.7-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ast (v2.4.3, ruby-4.0.7-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="base64 (v0.3.0, ruby-4.0.7-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bcrypt_pbkdf (v1.1.2, ruby-4.0.7-p0) [gem]" level="application" />
@@ -84,6 +85,7 @@
     <orderEntry type="library" scope="PROVIDED" name="mini_magick (v5.4.0, ruby-4.0.7-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.5, ruby-4.0.7-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v6.0.6, ruby-4.0.7-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="TEST" name="minitest-reporters (v1.8.0, ruby-4.0.7-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.8.5, ruby-4.0.7-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-imap (v0.6.7, ruby-4.0.7-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-pop (v0.1.2, ruby-4.0.7-p0) [gem]" level="application" />
