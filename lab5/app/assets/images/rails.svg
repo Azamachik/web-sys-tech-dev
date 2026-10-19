@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Rails logo">
+  <rect width="200" height="200" rx="36" fill="#cc0000"/>
+  <!-- rails converging toward the horizon -->
+  <g stroke="#fff" stroke-linecap="round" fill="none">
+    <path d="M58 140 L92 40" stroke-width="7"/>
+    <path d="M142 140 L108 40" stroke-width="7"/>
+    <!-- sleepers -->
+    <path d="M52 128 H148" stroke-width="8"/>
+    <path d="M62 102 H138" stroke-width="7"/>
+    <path d="M71 79 H129" stroke-width="6"/>
+    <path d="M79 59 H121" stroke-width="5"/>
+  </g>
+  <text x="100" y="178" text-anchor="middle" fill="#fff"
+        font-family="Helvetica, Arial, sans-serif" font-size="30"
+        font-weight="bold" letter-spacing="2">RAILS</text>
+</svg>

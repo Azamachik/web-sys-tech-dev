@@ -1,2 +1,26 @@
-#!/usr/bin/env ruby.exe
-exec "./bin/rails", "server", *ARGV
+#!/usr/bin/env ruby
+# Runs the Rails server and the Sass watcher together.
+# foreman can't stop its children on Windows, so the processes are managed here.
+Dir.chdir(File.expand_path("..", __dir__))
+
+server_args = ARGV.empty? ? ["-p", "3000"] : ARGV
+pids = [
+  spawn("ruby", "bin/rails", "dartsass:watch"),
+  spawn("ruby", "bin/rails", "server", *server_args)
+]
+
+def stop(pid)
+  if Gem.win_platform?
+    system("taskkill /T /F /PID #{pid}", out: File::NULL, err: File::NULL)
+  else
+    Process.kill("TERM", pid)
+  end
+rescue Errno::ESRCH
+end
+
+begin
+  Process.wait
+rescue Interrupt
+ensure
+  pids.each { |pid| stop(pid) }
+end
