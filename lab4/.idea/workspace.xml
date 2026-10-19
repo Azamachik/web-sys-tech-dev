@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c54d1fc2-a0d9-4c12-87b4-edf3c717e7f1" name="Changes" comment="" />
+    <list default="true" id="c54d1fc2-a0d9-4c12-87b4-edf3c717e7f1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/example_user.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,22 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Rails.lab3.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.ruby.rubocop.migration.global.runOnSaveToExternalFormatter": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.lang.ruby.rbs.tools.collection.workspace.sync.RbsCollectionUpdateProjectActivity#LAST_UPDATE_TIMESTAMP": "1791271454905",
-    "git-widget-placeholder": "static-pages-exercises",
-    "last_opened_file_path": "C:/Users/azama/RubymineProjects/lab4",
-    "nodejs_package_manager_path": "npm",
-    "ruby.structure.view.model.defaults.configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Rails.lab3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ruby.rubocop.migration.global.runOnSaveToExternalFormatter&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.lang.ruby.rbs.tools.collection.workspace.sync.RbsCollectionUpdateProjectActivity#LAST_UPDATE_TIMESTAMP&quot;: &quot;1792330252528&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;static-pages-exercises&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/azama/RubymineProjects/lab4&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Rails.lab3">
     <configuration name="lab3" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="lab3" />
@@ -119,7 +127,9 @@
       <option name="presentableId" value="Default" />
       <updated>1791271393925</updated>
       <workItem from="1791271394785" duration="304000" />
-      <workItem from="1791274804366" duration="2162000" />
+      <workItem from="1791274804366" duration="4866000" />
+      <workItem from="1792330187765" duration="138000" />
+      <workItem from="1792416511362" duration="678000" />
     </task>
     <servers />
   </component>

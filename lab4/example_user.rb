@@ -9,4 +9,8 @@ class User
   def formatted_email
     "#{@name} <#{@email}>"
   end
+
+  def alphabetical_name
+    "#{@name.split.last}, #{@name.split.first}"
+  end
 end
