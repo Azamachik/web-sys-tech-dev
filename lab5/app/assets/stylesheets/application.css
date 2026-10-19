@@ -49,6 +49,14 @@ p {
   line-height: 1.7em;
 }
 
+/* variables (в Sass это были бы $gray-light и подобные) */
+:root {
+  --gray-darker: #222;
+  --gray: #555;
+  --gray-light: #777;
+  --gray-medium-light: #eaeaea;
+}
+
 /* header */
 #logo {
   float: left;
@@ -59,33 +67,39 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
-}
-#logo:hover {
-  color: #fff;
-  text-decoration: none;
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
 /* footer */
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
-}
-footer a {
-  color: #555;
-}
-footer a:hover {
-  color: #222;
-}
-footer small {
-  float: left;
-}
-footer ul {
-  float: right;
-  list-style: none;
-}
-footer ul li {
-  float: left;
-  margin-left: 15px;
+  border-top: 1px solid var(--gray-medium-light);
+  color: var(--gray-light);
+
+  a {
+    color: var(--gray);
+
+    &:hover {
+      color: var(--gray-darker);
+    }
+  }
+
+  small {
+    float: left;
+  }
+
+  ul {
+    float: right;
+    list-style: none;
+
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }
