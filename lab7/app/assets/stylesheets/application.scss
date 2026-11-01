@@ -124,3 +124,12 @@ input, textarea, select, .uneditable-input {
   box-sizing: border-box;
 }
 input { height: auto !important; }
+
+#error_explanation { color: red; }
+#error_explanation ul { color: red; margin: 0 0 30px 0; }
+
+.field_with_errors label { color: #a94442; }
+.field_with_errors .form-control {
+  color: #a94442;
+  border-color: #a94442;
+}
